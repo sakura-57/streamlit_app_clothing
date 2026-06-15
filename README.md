@@ -88,7 +88,6 @@ The product lookup query is built by string concatenation with the selected valu
 Consider caching the catalog query with @st.cache_data to avoid re-querying Snowflake on every interaction.
 The Snowflake connection/cursor could be closed (or managed with a context manager) when the app finishes its work.
 
-
-License
+License:
 
 Add a license of your choice (e.g., MIT) if you intend to share or open-source this project.
